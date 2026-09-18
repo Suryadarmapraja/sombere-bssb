@@ -1,0 +1,12 @@
+SOMBERE' WEB MULTI-USER V6.2
+- Kartu Kontrol aktif pada database pusat.
+- Nomor otomatis KK/0001/DUM/IX/2026, sequence tahunan dan tidak digunakan ulang.
+- Nama User dan Nama Divisi diisi manual.
+- Metode Termin dan Monthly.
+- Termin: progress, persentase, nilai termin, manual override + alasan.
+- Monthly: Terbatas/Tidak Terbatas; tanpa opsi bulan tidak dihitung/ditambahkan.
+- Draft -> Submit -> Menunggu Approval -> Approve/Kembalikan.
+- Approval hanya Master Administrator/Approver.
+- Audit trail create/submit/approve/return.
+- Register Jurnal tetap independen.
+Catatan: V6.2 belum mengaktifkan Tambah Tagihan/approval tagihan/OPE. Itu tahap berikutnya.

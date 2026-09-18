@@ -1,0 +1,27 @@
+databases:
+  - name: sombere-db
+    databaseName: sombere
+    user: sombere
+    plan: free
+services:
+  - type: web
+    name: sombere-bssb
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sombere-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_NAME
+        value: Master Administrator
+      - key: ADMIN_PASSWORD
+        generateValue: true

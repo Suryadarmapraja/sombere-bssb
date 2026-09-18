@@ -1,0 +1,4 @@
+UPLOAD SEMUA ISI FOLDER INI KE ROOT REPOSITORY GitHub sombere-bssb.
+Jangan upload ZIP sebagai satu file.
+File render.yaml adalah konfigurasi deployment Render Blueprint.
+CATATAN: ADMIN_PASSWORD dibuat otomatis oleh Render. Setelah deploy, lihat Environment pada Web Service untuk nilainya atau ganti sendiri dengan password kuat lalu redeploy.
